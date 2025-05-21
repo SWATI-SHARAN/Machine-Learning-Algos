@@ -1,4 +1,5 @@
 #Mean, Median, Mode Calculation
+
 #Mean
 def calculate_mean(data):
     """Calculate the mean of a list of numbers."""
