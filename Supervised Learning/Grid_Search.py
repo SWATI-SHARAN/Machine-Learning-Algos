@@ -1,10 +1,10 @@
 from sklearn import datasets
 from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.svm import SVC
+from sklearn.svm import SVC #SVC: Support Vector Classifier (SVM).
 from sklearn.metrics import accuracy_score
 
-irirs = datasets.load_iris()
-X, y = irirs.data, irirs.target
+iris = datasets.load_iris()
+X, y = iris.data, iris.target
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
